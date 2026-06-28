@@ -1,5 +1,10 @@
 # Web-Traffic-Filter-Flask-
 
+📘 Web Traffic Filter (Flask) 
+
+It is an advanced, lightweight Web Application Firewall (WAF) built as a Flask middleware layer. Unlike traditional network firewalls that operate at the IP/port level, this tool inspects application‑layer traffic—specifically HTTP requests—to detect and block common web attacks such as SQL injection (SQLi), cross‑site scripting (XSS), path traversal, and command injection. It acts as a security shield between the client and the web application, filtering out malicious payloads before they can reach application logic or back‑end databases. This approach provides a cost‑effective, deployable WAF solution for small to medium‑sized applications, offering protection equivalent to commercial WAFs without the associated overhead.
+
+
 🎯 Objective
 
 To build a real‑time, rule‑based HTTP traffic filter that protects web applications from common injection and exploitation attacks. The tool intercepts all incoming requests to a Flask application, applies configurable security rules, and blocks or sanitises any request that matches a malicious pattern. It also implements rate limiting to mitigate brute‑force and denial‑of‑service (DoS) attempts. By logging all blocked requests, the tool provides valuable threat intelligence for security teams, enabling them to identify attack trends and refine their defence strategies.
